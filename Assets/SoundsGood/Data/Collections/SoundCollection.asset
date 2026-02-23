@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0662f1fff191d644dbe6bb9c5c5a0e4a, type: 3}
+  m_Name: SoundCollection
+  m_EditorClassIdentifier: 
+  sounds:
+  - tag: CutCrisp
+    clips:
+    - {fileID: 8300000, guid: 04d9f4c000825f74582475c419830ac9, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: SliceGush
+    clips:
+    - {fileID: 8300000, guid: bd0256147fad8c443ba56f855841ecda, type: 3}
+    - {fileID: 8300000, guid: fc7bf7bd3544ab64fbcd89be8d3047bd, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: TonalHint
+    clips:
+    - {fileID: 8300000, guid: 86711e4c8c0eb9c49831bef334ee88fe, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: CreatureSnarl
+    clips:
+    - {fileID: 8300000, guid: dd1d8fc32dfa0d847ad3ddac4f4261b9, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: UIConfirm
+    clips:
+    - {fileID: 8300000, guid: 8ec1018783aab664b80810e4271412e7, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: FootstepsCement
+    clips:
+    - {fileID: 8300000, guid: c9599c9a6b154684bab7781a97b5172c, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: CrateBreak
+    clips:
+    - {fileID: 8300000, guid: 3caf9dedfb3dc9b41b5df0d6f4da428a, type: 3}
+    - {fileID: 8300000, guid: fcc4dce2616072e429c462cff990327e, type: 3}
+    - {fileID: 8300000, guid: 8683e35a5346ec5498dea3fe4aafc533, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: CrateHit
+    clips:
+    - {fileID: 8300000, guid: d88a73532bea6fe48b29f153cb5d567b, type: 3}
+    - {fileID: 8300000, guid: f381d022f1e96cd4ea21d12e2085e65e, type: 3}
+    - {fileID: 8300000, guid: 38e7df9458571e149b93428904946441, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: CrateKick
+    clips:
+    - {fileID: 8300000, guid: 6a1d154cdd020574396573fe3e47b998, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: CreatureBanshee
+    clips:
+    - {fileID: 8300000, guid: 09e40f70d2c2a604f8b564a09d0271d3, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: SpikeTrap
+    clips:
+    - {fileID: 8300000, guid: 75ec0d36c76fd9042a1b315f6031b5b5, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: Kick
+    clips:
+    - {fileID: 8300000, guid: 97945e451e1a1ce4aa1e03a950696fb0, type: 3}
+    - {fileID: 8300000, guid: f017ec0b2f5312f498f1bec0c93f13b4, type: 3}
+    - {fileID: 8300000, guid: cff754fe05a353642893a8aa72613da1, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: DaggerCut
+    clips:
+    - {fileID: 8300000, guid: b2f33f595c8502c4db8a653d0bef77e1, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: KickAlt
+    clips:
+    - {fileID: 8300000, guid: 0bbeeb547e835994a9e2e72051b203f4, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: OctopusWail
+    clips:
+    - {fileID: 8300000, guid: 3f1e887513eb70646bf3efde2ff5e688, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: Minecraft
+    clips:
+    - {fileID: 8300000, guid: 0b0d1aaa08b45c64bbeb52849c6c3f1e, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: AmbientCry
+    clips:
+    - {fileID: 8300000, guid: 0b98f2dde0e537346b5430772c439a2f, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: AmbientShriek
+    clips:
+    - {fileID: 8300000, guid: 69ada0eaa86b8604da989987bcee4b20, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: StaffFire
+    clips:
+    - {fileID: 8300000, guid: 2d5db899746be594e9f6c2e2726d820b, type: 3}
+    compressionPreset: 1
+    forceToMono: 0
+  - tag: DaggerShoot
+    clips:
+    - {fileID: 8300000, guid: 2bd06751a45e4d34e8db90a8cb718557, type: 3}
+    compressionPreset: 1
+    forceToMono: 0

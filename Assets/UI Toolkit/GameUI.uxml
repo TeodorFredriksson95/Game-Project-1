@@ -1,0 +1,27 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/GameUIStylesheet.uss?fileID=7433441132597879392&amp;guid=484d9cc58b68b6e44a404a776b851a9a&amp;type=3" />
+    <ui:VisualElement name="CrosshairAbsoluteContainer" style="flex-grow: 1; position: absolute; width: 100%; height: 100%;">
+        <ui:VisualElement name="Crosshair" class="crosshair" style="flex-grow: 1; background-image: none; width: 10%; height: 10%; min-height: 10%; max-width: 10%; max-height: 10%; min-width: 10%; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="HeartAbsoluteContainer" style="flex-grow: 1; position: relative; width: 100%; height: 100%; flex-direction: row; justify-content: center; align-items: center;">
+        <ui:VisualElement name="HeartContainer" style="position: relative; width: auto; height: auto; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row; top: auto; left: auto; justify-content: center; align-self: flex-start; bottom: auto; align-items: flex-start; align-content: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:VisualElement name="UpgradesContainer" style="position: relative; width: auto; height: auto; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row; top: 8px; left: auto; justify-content: center; align-self: center; bottom: auto; align-items: center; align-content: auto; margin-top: 0; margin-right: 0; margin-bottom: auto; margin-left: auto; right: 8px;">
+            <ui:VisualElement name="SpeedUpgradeContainer" style="flex-grow: 1; flex-direction: row; justify-content: center; align-items: flex-end; align-self: center; width: auto; height: auto; right: 10px;">
+                <ui:VisualElement name="SpeedImage" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Project/Runtime/Art/Textures/speedupgradeui_cropped.png?fileID=2800000&amp;guid=ac1a27077b1981c48926d5a85386868e&amp;type=3#speedupgradeui_cropped&quot;); width: 50px; height: 50px;" />
+                <ui:Label text="0&#10;" name="SpeedUpgradeNr" style="color: rgb(255, 255, 255); margin-bottom: 0; padding-bottom: 0; font-size: 20px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ForceUpgradeContainer" style="flex-grow: 1; align-items: flex-end; justify-content: center; flex-direction: row; align-self: center;">
+                <ui:VisualElement name="PushImage" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Project/Runtime/Art/Textures/strengthupgrade_cropped.png?fileID=2800000&amp;guid=e7f1a7dd3131b9d4e86fb609ed20c866&amp;type=3#strengthupgrade_cropped&quot;); width: 50px; height: 50px;" />
+                <ui:Label text="0&#10;" name="ForceUpgradeNr" style="color: rgb(255, 255, 255); padding-bottom: 0; margin-bottom: 0; font-size: 20px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="LootQueContainer" class="LootQueContainer" style="display: none;">
+        <ui:VisualElement name="LootQueImageContainer" class="LootQueImageContainer">
+            <ui:VisualElement name="LootQueImage" class="LootQueImage" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="TutorialContainer" style="flex-grow: 1; -unity-text-align: upper-left; justify-content: flex-start; width: 100%; height: 100%; position: absolute; align-items: flex-start; align-content: center; align-self: flex-start;">
+        <ui:VisualElement name="TutorialIndicator" class="tutorial-icon" style="flex-grow: 1; position: relative; width: auto; height: 15%; top: auto; left: auto; min-width: 20%; min-height: 15%; max-width: 20%; max-height: 15%; margin-top: auto; margin-right: auto; margin-bottom: 0; margin-left: 0; background-image: url(&quot;project://database/Assets/_Project/Runtime/Art/Textures/Hearts.png?fileID=-2112561033&amp;guid=ef8fbb3abd2dbab46bf14c726d12d103&amp;type=3#Hearts_0&quot;); background-size: contain; -unity-text-align: upper-center; justify-content: center; bottom: auto; right: auto; align-items: flex-start; align-self: center;" />
+    </ui:VisualElement>
+</ui:UXML>

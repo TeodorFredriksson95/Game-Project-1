@@ -1,0 +1,31 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class GameQuitChecker : MonoBehaviour
+{
+    [SerializeField] private Material colorBlindlessMat;
+
+    [ContextMenu("Run Prefs Reset")]
+    public void SettingsReset()
+    {
+        PlayerPrefs.SetFloat("Volume", 1);
+        PlayerPrefs.SetFloat("Brightness", 22);
+        PlayerPrefs.SetFloat("ColorBlindlessValue", 0);
+        PlayerPrefs.SetInt("PixelFilterValue", 1);
+        PlayerPrefs.SetInt("BobSetting", 1);
+        PlayerPrefs.SetInt("ScreenShakeSetting", 1);
+        PlayerPrefs.SetInt("OneHandedSetting", 0);
+        PlayerPrefs.SetInt("OneLife", 0);
+        PlayerPrefs.SetInt("Timer", 0);
+        PlayerPrefs.SetString("ApplicationRunned", "first");
+        colorBlindlessMat.SetInt("_Opacity", 0);
+    }
+
+    void OnApplicationQuit()
+    {
+        SettingsReset();
+    }
+
+
+
+}
