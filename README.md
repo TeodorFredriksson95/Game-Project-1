@@ -64,7 +64,5 @@ The project was developed as part of a collaborative team production and later r
 
 - Unity  
 - C#  
-- NavMesh AI  
-- Custom interaction systems  
 
 ---
